@@ -116,6 +116,19 @@ main p {
   justify-content: space-between;
 }
 
+.contact_left {
+}
+
+.contact_info {
+  background-color: #1f2833;
+}
+
+.contact_right {
+  background-color: #1f2833;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
 h3 {
   text-align: center;
 }
