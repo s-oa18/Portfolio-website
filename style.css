@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 a {
@@ -13,7 +13,7 @@ a {
   min-height: 500px;
   max-width: 1150px;
   margin: auto;
-  padding-top: 140px;
+  padding-top: 40px;
 }
 
 .header_container {
@@ -52,6 +52,12 @@ header {
   text-underline-offset: 10px;
 }
 
+.nav_cv {
+  /* padding-top: 12rem; */
+  position: absolute;
+  bottom: 50px;
+}
+
 .btn {
   font-size: 1rem;
   border: 1px solid #fff;
@@ -69,28 +75,35 @@ header {
 .main {
   font-size: 1.5rem;
   /* background-color: red; */
-  min-height: 300px;
+  min-height: 100vh;
   display: flex;
   justify-content: space-between;
-  margin-top: 85px;
+  align-content: center;
+  /* margin-top: 85px; */
+  padding-top: 250px;
 }
 
 .hello {
   color: #60fcf1;
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 3.5rem;
 }
 
 .typewriter {
   color: #60fcf1;
 }
 
-main p {
+/* main p {
   max-width: 730px;
   padding-bottom: 40px;
-}
+} */
 
 .about {
   /* background-color: blue; */
-  min-height: 300px;
+  min-height: 100vh;
   margin-bottom: 50px;
 }
 
@@ -109,15 +122,9 @@ main p {
   min-height: 300px;
 }
 
-.contacts {
-}
-
 .contact_section {
   display: flex;
   justify-content: space-between;
-}
-
-.contact_left {
 }
 
 .contact_info {
@@ -156,7 +163,7 @@ input[type="email"],
 textarea {
   padding: 12px 20px;
   width: 100%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   box-sizing: border-box;
 }
