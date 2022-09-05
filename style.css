@@ -13,7 +13,7 @@ a {
   min-height: 500px;
   max-width: 1150px;
   margin: auto;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
 .header_container {
@@ -209,4 +209,13 @@ footer p {
   text-align: center;
   vertical-align: text-bottom;
   padding-top: 3rem;
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 768px) {
+  .navbutton {
+    display: none;
+  }
 }
