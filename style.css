@@ -13,7 +13,7 @@ a {
   min-height: 500px;
   max-width: 1150px;
   margin: auto;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .header_container {
@@ -212,10 +212,30 @@ footer p {
 }
 
 @media (max-width: 480px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
+  .main {
+    background-color: red;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .main_left {
+    margin: 0;
+  }
+
   .navbutton {
+    display: none;
+  }
+
+  .nav_cv {
     display: none;
   }
 }
