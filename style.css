@@ -17,7 +17,7 @@ a {
 }
 
 .header_container {
-  background-color: black;
+  /* background-color: black; */
   min-height: 85px;
   /* margin-bottom: 40px; */
   position: fixed;
@@ -140,6 +140,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+.card {
+  background-color: black;
+}
+
 .contact {
   min-height: 100vh;
 }
@@ -219,23 +223,66 @@ footer p {
 }
 
 @media (max-width: 768px) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .logo {
+    padding-left: 50px;
+  }
+
   .main {
-    background-color: red;
-    padding-top: 100px;
+    /* background-color: red; */
+    min-height: 100vh;
+    padding-top: 20px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
   }
 
   .main_left {
     margin: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
+
+  .intro {
+    height: 30px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  /* .typewriter {
+    font-size: 3rem;
+  } */
 
   .navbutton {
     display: none;
   }
 
-  .nav_cv {
+  .header_cv {
     display: none;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .contact_section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact_right {
+    margin-bottom: 100px;
   }
 }
